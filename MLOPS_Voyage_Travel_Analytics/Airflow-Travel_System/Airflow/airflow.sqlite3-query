@@ -1,0 +1,8 @@
+-- database: c:\VoyageTravelAnalytics\MLOPS_Voyage_Travel_Analytics\Airflow\airflow.db
+
+-- Use the ▷ button in the top right corner to run the entire file.
+
+CREATE TABLE ab_permission (
+    id INTEGER NOT NULL PRIMARY KEY,
+    name VARCHAR(100) NOT NULL UNIQUE
+);
